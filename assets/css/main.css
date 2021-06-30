@@ -48,10 +48,15 @@ body {
 .sooncard-1 p {
     line-height: 1.6;
     opacity: .8;
+    font-size: 1rem;
 }
 
 .sooncard-1 h1 span {
     color: #AA5CDB;
+}
+
+.sooncard-1 h1 {
+    font-size: 1.5rem;
 }
 
 .container-info {
@@ -65,6 +70,7 @@ body {
 .container-info div {
     text-align: center;
     margin: 0 2rem 0 0;
+    font-size: 1rem;
 }
 
 .container-info div h2 {

@@ -19,6 +19,7 @@ body {
 .card {
     width: 52%;
     height: 42%;
+    min-height: 25rem;
     background-color: #1B1938;
     border-radius: 5px;
     display: flex;
@@ -28,7 +29,7 @@ body {
 
 .sooncard-1, .sooncard-2 {
     width: 50%;
-    height: 90%;
+    height: 100%;
 }
 
 .sooncard-1 {
@@ -80,10 +81,21 @@ body {
     /* background: linear-gradient(hsla(277, 78%, 37%, 0.5), hsla(277, 78%, 37%, 0.5), url("../img/image-header-desktop.jpg") no-repeat center center); */
 }
 
+@media (max-width: 400px) {
+    .sooncard-1 h1 {
+        font-size: 1rem
+    }
+
+    .sooncard-1 p {
+        font-size: .7rem;
+    }
+}
+
 @media (max-width: 1260px) {
     .card {
         width: min-content;
         height: 100%;
+        min-height: 20rem;
         flex-direction: column;
         width: 85%;
     }
